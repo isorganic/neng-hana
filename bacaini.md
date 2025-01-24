@@ -55,12 +55,3 @@ Jika terjadi error:
 1. Pastikan Python dan pustaka telah terinstal dengan benar.
 2. Cek apakah `token.txt` berada di folder yang sama dengan script dan berisi token yang valid.
 3. Jika ada kendala lain, silakan hubungi pengembang script.
-
-## Catatan Tambahan
-- Anda dapat menggunakan virtual environment untuk menjaga instalasi pustaka tetap bersih:
-  ```bash
-  python3 -m venv venv
-  source venv/bin/activate  # Linux/Mac
-  venv\Scripts\activate   # Windows
-  pip install aiohttp colorama
-  
